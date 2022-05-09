@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<!---- Header Declarations To Be Completed----->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-sacle=1">
+<title>Ayn Exercise on HTML,CSS,etc</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'WSpages.css' %}">
+</head>
+
+<!------Introduction Page -------->
+<body>
+
+<div class="header">
+
+<nav>
+<ul>
+ <li ><a href="Chall.html" class="dropbtn">Challenges</a></li>
+ <li ><a href="Appl.html" class="dropbtn">Application</a></li>
+ <li ><a href="Proto.html" class="dropbtn">Protocols</a></li>
+ <li ><a href="Arch.html" class="dropbtn">Architecture</a></li>
+<!---------------dropdown same page navigation---------->
+ <li class="dropdown"><a href="Intro.html" class="dropbtn">Introduction</a>
+  <div class="dropdown-content">
+   <a href="#Link1">What is IoT?</a>
+   <a href="#Link2">History</a>
+   <a href="#Link3">Ecosystem</a>
+   <a href="#Link4">Short Video</a>
+   </div>
+ </li>
+<!------------------------------------------------------->
+ <li ><a href="Index.html">Home</a></li> 
+    
+</ul>
+</nav>
+</div>
+
+
+<div class="cont">
+
+<h2 id="Link1">What is IoT?</h2>
+<p > The Internet of Things is the interconnection of endpoints (devices and things) which can be uniquely addressed and identified with an IP (Internet Protocol) address.Several entities have defined the IoT in their own words. Essentially these definitions mean the same but show a particular angle from which the organizationsapproachthe subject matter.Some of the prominent entities definitions are given below </P>
+<P>
+ITU</P><p>
+The Internet of Things (IoT) has been defined in Recommendation ITU-T Y. 2060 (06/2012) as a global infrastructure for the information society, enabling advanced services by interconnecting (physical and virtual) things based on existing and  evolving interoperable information and communication technologies.</p>
+<P>
+Cisco</P><p>
+The Internet of Things (IoT) is the network of physical objects that contain embedded technology to communicate and sense or interact with their internal states or the external environment.</p>
+<P></P><p>
+Wikipedia
+In computing, the Internet of things, also known as the Internet of objects,
+refers to the networked interconnection of everyday objects.</p> 
+<P>
+IETF</P><p>
+The Internet of Things is the network of physical objects or "things" embedded with electronics, software, sensors, and connectivity to enable objects to exchange data with the manufacturer, operator and/or other connected devices.</p>
+<P>
+Gartner</P><p>
+The IoT is the network of physical objects that contain embedded technology to communicate and sense or interact with their internal states or the external environment.</p>
+<P>
+IoT adds a new sphere of information, interaction, transaction and action to the Internet thanks to devices, equipped with data sensing, analysis and communication capabilities, using Internet technologies. The Internet of Things further bridges digital and physical realities and powers information-driven automation and improvements on the level of business, society and people’s lives.
+
+It as a large number of end devices and facilities that is not limited by region. It includes ``internal intelli-
+gence'' and ``external enablement''. Internal intelligence
+is mainly composed of sensors, mobile terminals, indus-
+trial systems, numerical control systems, home intelligent
+facilities, video surveillance systems and so on. External
+enablement refers to all kinds of assets such as tagged with
+RFID (Radio Frequency Identifcation), intelligent products
+such as individuals and vehicles with wireless terminals.
+Through a variety of wireless or wired long-distance or short-
+distance networks for transmission, application integration,
+as well as cloud computing-based software and service oper-
+ation mode, in the Internet, LAN and other environments,
+the use of appropriate information protection mechanisms
+can provide security and even personalized real-time online
+monitoring, GPS positioning traceability, early warning man-
+agement, remote control, security prevention, remote mainte-
+nance, on-line upgrade etc. It has realized the integrated
+management of high effciency, energy saving, safety and
+environmental protection.</p>
+
+<h2 id="Link2">History</h2>
+<p> The interconnection of physical devices with embedded sensing and communication possibilities, including sensors and actuators, is not new and has a long history in the sense of M2M networks. But the record of coining and using the term internet of things in 1999 is attributed to Kevin Ashton, the co-founder of the MIT Auto-ID Center.</p>
+
+<p>By the year 2013, the Internet of Things had evolved into to a system using multiple technologies, ranging from the Internet to wireless communication and from micro-electromechanical systems (MEMS) to embedded systems. The traditional fields of automation (including the automation of buildings and homes), wireless sensor networks, GPS, control systems, and others, all support the IoT.
+
+Defining the Internet of things as "simply the point in time when more 'things or objects' were connected to the Internet than people", Cisco Systems estimated that the IoT was "born" between 2008 and 2009, with the things/people ratio growing from 0.08 in 2003 to 1.84 in 2010.
+</p>
+
+
+<h2 id="Link3"> The IoT Ecosystem</h2>
+<p> In order to come up with a good picture of the IoT ecosystem, it is better to start with the IoT stack. A stack is the collection of the technologiesthat forms the operational infrastructure on a given machine In a computing context And the respective ecosystem is the collection of organizations that supply service or goods that enable the production, supply, implementation and operation of these technologies.</p>
+
+<img src="{% static 'stack1.gif' %}" style="float:left"; height="auto"; width:50%"/> 
+
+<P> The IoT ecosystem is a collection of organization and process that are involved in the provision of technologies and products represented in the stack. It also includes auxilary services that are vital and directely related to the stack such as R&D, standardization, management, and financial organization. The consumer and government are included in the broader ecosystem picture as the influence in many ways developments in the IoT stack. Accordingly, organizations involved in the design and manufacturing of sensors & actuators, embedded devices, IoT gateways, constitute the hardware group of the ecosystem. Connectivity technology and connectivity services providers including telecom companies for the other group of IoT ecosystem. In the software group organizations that develop applications for IoT, cloud analytics application developers and service providers and the like are included. AI is becoming an important component of IoT. AI benefits from IoT generated data. On the other hand AI is providing cognitive capacities or intelligence to things. AI is considered as part of the software group of the IoT ecosystem. It may also be considered as a seperate group by itself.     
+
+<h2 id="Link4"> Short Video</h2>
+<p>IoT is one of the subject matters widely discussed in social media. A search entry of IoT on december 15, 2019 produced About 26,80,00,000 results. The following video is taken from youtube </p>
+<embed src="{% static 'video1.mp4' %}" autostart="false" height="200" width="380" frameborder="0" />
+
+</div>
+
+
+<!--------Footer  ------>
+
+<div class="footer">
+<p>Posted by: Aynalem Aregawi     Contact information: <a href="mailto:aynalem08@gmail.com">aynalem08@gmail.com</a></p>
+</div>
+
+</body>
+</html>

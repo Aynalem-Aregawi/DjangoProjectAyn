@@ -1,0 +1,188 @@
+/* style page for the additional pages   */
+
+/*  ...... header style......*/
+body {
+background-color: none;
+}     
+
+.header {
+position: fixed;
+display: inline-block;
+left: 0;
+width: 100%;
+border-style: outset;
+background-color: lightgray;
+}
+
+#introh {
+text-size: 40px;
+padding: 0;
+float: left;
+color: white;
+}
+
+
+/*      ...........Navigation -----------------   */
+
+
+nav ul { 
+Position: relative;
+list-style-type: none;
+margin: 0;
+padding: 0;
+float: right
+}
+
+li {
+float: right;
+border-right: 5px solid #bbb;
+}
+
+/*-------------------dropdown menu ------------------*/
+
+
+li a, .dropbtn {
+Position: relative;
+display: inline-block;
+padding: 5px;
+background-color: blue;
+line-height: 30px;
+border-radius: 6px;
+text-decoration: none;
+color: white;
+font-family:
+font-size: 20Px;
+font-weight: bold;
+}
+
+li a:hover {
+  background-color: red;
+  color: white;
+}
+
+li a:active {
+background-color: green;
+color: white
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: green;
+  min-width: 160px;
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.0);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color:green;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*   ...........body style ---------------  */
+
+    
+.cont {
+border: none;
+clear: right;
+}
+h2 {
+clear: right;
+margin-top: auto;
+padding-top: 80px;
+font-family:verdana;
+text-align:center;
+color:#0066FF;
+font-style:bold;
+font-sie: 46px
+}
+
+p {
+margin: 5px;
+text-align:justify;
+font-size:18pt;
+}
+/* -----------------images -------------------------*/
+#pict1 {
+float:left;
+height: auto;
+width: 50%;
+}
+
+#pict2 {
+float:left;
+height: auto;
+width:50%;
+}
+
+/*-----------------------Forms ----------------------*/
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/*    ........Footer Style-----------------     */
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+

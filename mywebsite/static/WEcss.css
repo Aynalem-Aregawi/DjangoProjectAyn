@@ -1,0 +1,71 @@
+/*      ...........Navigation    */
+nav ul {  
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    }
+    
+    li {
+    float: right;
+    border-right: 5px solid #bbb;
+    }
+    
+    li a {
+    display:block;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20Px;
+    font-type: bold;
+    }
+    
+    
+    
+    /*   .............Body Style     */
+    
+    body {
+      background-image:url("{% static 'b2.png' %}");
+    }
+    
+    .center {
+    padding: 20%;
+    }
+    
+    #indx {
+    font-family:verdana;
+    text-align:center;
+    color:orange;
+    font-style:bold;
+    font-sie: 46px
+    }
+    
+    #indxp {
+    background-border: white;
+    background-margin: 3px;
+    background-radius: 10px;
+    background-color: white;
+    background-padding: 20px;
+    
+    text-align:center;
+    font-size:18pt;
+    }
+    
+    
+    /*    ........Footer Style     */
+    
+    
+    
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: gray;
+      color: white;
+      text-align: center;
+    }
+    
+    #indxf {
+    color: green;
+    text-align: center:
+    }

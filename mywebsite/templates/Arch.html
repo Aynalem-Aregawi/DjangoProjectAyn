@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<!---- Header Declarations To Be Completed----->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-sacle=1">
+<title>Ayn Exercise on HTML,CSS,etc</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'WSpages.css' %}">
+</head>
+
+<!------Introduction Page -------->
+<body>
+
+<div class="header">
+<nav>
+<ul>
+ <li><a href="Chall.html">Challenges</a></li>
+ <li><a href="Appl.html">Application</a></li>
+ <li><a href="Proto.html">Protocols</a></li>
+ <li class="dropdown"><a href="Arch.html" class="dropbtn">Architecture</a>
+  <!--<div class="dropdown-content">
+   <a href="#Link1">Basic Requirements</a>
+   <a href="#Link2">Network Topology</a>
+   <a href="#Link3">Device Topology</a>
+   </div> -->
+ </li>
+ <li><a href="Intro.html">Introduction</a></li>
+ <li><a href="Index.html">Home</a></li>      
+</ul>
+</nav>
+</div>
+
+<div class="cont">
+
+<h2 id="Link1">Basic Requirements</h2>
+<p > The architecture of IoT is determined by the basic characterstics of embedded systems which are highly constrained in power, performance, size and cost. IoT architectures developement have been driven to meet these tight constrains.</p><p>
+Originally, the internet was designed for  full function, resource rich and non-real time devices like desktop PCs, servers, etc. Thus, the internet is not well suited to embedded systems in its basic standard form. However, in the last few decades various solutions have been developed to connect embedded systems to the internet. Internet enabled systems are now growing rapidly and are counting on the billions every year.
+Both IPv4 and IPv6 encapsulation and addressing result in significant code size. Add to that TCP protocol and application protocols such as the once listed in table 1. In short full stack TCP/IP requires significant memory space, taking into account the limited memory capacity of 8 bit and even 16 bits embedded systems.  As a result, becàuse of the limited memory space in many cases of embedded systems  code size is an important issue.</p><p> 
+To address this problem, efficient Protocol versions such as lwIP, 6LoWPAN, DTLS,  etc have been developed. The light weight IP(lwIP) that was initially  developed by Adam Dunkels, reduces resource usage greatly while still having a full-scale TCP/IP functionality. It can be used  in embedded systems with around 40K program memory space to spare.
+
+Besides there are various architectural decisions that determine which Internet services will be needed by the system. For instance
+-connectionless versus connection oriented,
+-streaming vs. Non-streaming, 
+-whether the system look to the rest of the Internet like a terminal, or a Web server, 
+These decisions determine the transport and application layer protocols code size. Iñ other words, it is important to answer the If  question which subset of TCP/IP will be  included in the embedded system rather than simply loading all available module however light weight or reduced or lean versions  they may be.</p>
+ 
+
+<h2 id="Link2">Network Topology</h2>
+<p>Embedded systems are either directly connected to the internet or through a gateway. Communication to the gateway is usually made with NFC technology such as Bluetooth. At a device level the TCP/IP stack may be loaded to the device or it the resources of the device are not sufficient enough an external process may be added as part of the embedded system.</p>
+<img src="{% static 'img2.gif' %}" height="auto" width="50%"/>
+
+<h2 id="Link3">Device Topology</h2>
+<p>An Embedded system may have a processor capable of accomodating the additional memory and storage require by TCP/Ip stack and the buffere requirements for data transfer. In many other cases, the embedded system may not have that necessary extra memory and storage space. Thus, an external processor has to be installed and interconnected to it</p>
+<img src="{% static 'img3.gif' %}" height="auto" width="30%"/>
+
+
+
+</div>
+
+
+<!--------Footer  ------>
+
+<div class="footer">
+<p>Posted by: Aynalem Aregawi     Contact information: <a href="mailto:aynalem08@gmail.com">aynalem08@gmail.com</a>.</p>
+</div>
+
+</footer>
+</body>
+</html>
