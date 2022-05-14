@@ -16,7 +16,7 @@ nav ul {
     background-color: blue;
     color: white;
     font-size: 20Px;
-    font-type: bold;
+    font-weight: bold;
     }
     
     
@@ -36,15 +36,15 @@ nav ul {
     text-align:center;
     color:orange;
     font-style:bold;
-    font-sie: 46px
+    font-size: 46px
     }
     
     #indxp {
-    background-border: white;
-    background-margin: 3px;
-    background-radius: 10px;
+    border: white;
+    margin: 3px;
+    border-radius: 10px;
     background-color: white;
-    background-padding: 20px;
+    padding: 20px;
     
     text-align:center;
     font-size:18pt;
@@ -67,5 +67,5 @@ nav ul {
     
     #indxf {
     color: green;
-    text-align: center:
+    text-align: center;
     }
